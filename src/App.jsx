@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <>
-        <h1>Text Checker</h1>
+        <h1>String Checker</h1>
         <div>
           <textarea onChange={(e)=>setLeftStr(e.target.value)} value={Leftstr}/>
           <textarea onChange={(e)=>setRightStr(e.target.value)} value={Rightstr}/>
